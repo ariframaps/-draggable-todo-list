@@ -7,6 +7,7 @@ body {
 
 .todo-container {
     display: flex;
+    margin-top: 100px;
 }
 
 li {
@@ -27,6 +28,8 @@ input {
 .listItem {
     padding: 10px;
     cursor: pointer;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
 }
 
 .trash {
