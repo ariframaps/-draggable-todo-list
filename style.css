@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.todo-container {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.listTitle {
+    background-color: salmon;
+    text-align: center;
+    padding-block: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+}
+
+.listItem {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.trash {
+    width: 500px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
